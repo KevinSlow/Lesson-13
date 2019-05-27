@@ -1,0 +1,107 @@
+div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1920px;
+  height: 780px;
+  background: -webkit-gradient(linear, left top, right top, from(#c1f0f3), color-stop(17%, #c1f0f3), to(#e5f3f3));
+  background: linear-gradient(left, #c1f0f3 0%, #c1f0f3 17%, #e5f3f3 100%);
+}
+
+div.info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.info-block {
+  margin: 269px 0px 212px 384px;
+}
+
+div.image-block {
+  margin: 28px 0px 0px 193px;
+}
+
+strong.title {
+  color: #7c6db0;
+  font-family: "Roboto Slab";
+  font-size: 70px;
+  font-weight: 700;
+  margin: -159px 13px 0px 30px;
+}
+
+div.subtitle {
+  background-color: #7f70b1;
+  padding: 17px 20px 17px 22px;
+  width: 369px;
+  height: 31px;
+  margin: 21px 0px 0px 0px;
+}
+
+span.sub_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+div.advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 121px 0px 0px 0px;
+}
+
+div.heading-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items-margin-bottom: -25px;
+}
+
+span.heading {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+div.buttons {
+  margin-top: 128px;
+}
+
+button.button-1 {
+  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  background-color: #1eb8b0;
+  background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%);
+  padding: 20px 50px 20px 60px;
+}
+
+button.button-2 {
+  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  padding: 20px 50px 20px 60px;
+  background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%);
+}
+/*# sourceMappingURL=style.css.map */
